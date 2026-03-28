@@ -477,19 +477,12 @@ export default function Home() {
             «Платформа университетского технологического предпринимательства»
           </p>
 
-          <div className="flex flex-wrap items-center justify-center gap-8">
-            {/* Placeholder: Фонд содействия инновациям */}
-            <div className="w-[200px] h-[80px] bg-gray-300 rounded-lg flex items-center justify-center text-center px-3">
-              <span className="text-gray-600 text-xs leading-tight">
-                Логотип Фонда содействия инновациям
-              </span>
-            </div>
-            {/* Placeholder: Федеральный проект */}
-            <div className="w-[200px] h-[80px] bg-gray-300 rounded-lg flex items-center justify-center text-center px-3">
-              <span className="text-gray-600 text-xs leading-tight">
-                Логотип федерального проекта
-              </span>
-            </div>
+          <div className="flex items-center justify-center">
+            <img
+              src="/FASIE.SVG"
+              alt="Фонд содействия инновациям"
+              className="h-[80px] w-auto"
+            />
           </div>
         </div>
       </Section>
@@ -547,18 +540,13 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Logos repeat */}
-          <div className="flex flex-wrap items-center justify-center gap-6 mb-8 pt-8 border-t border-gray-800">
-            <div className="w-[160px] h-[60px] bg-gray-700 rounded-lg flex items-center justify-center text-center px-2">
-              <span className="text-gray-400 text-[10px] leading-tight">
-                Логотип Фонда содействия инновациям
-              </span>
-            </div>
-            <div className="w-[160px] h-[60px] bg-gray-700 rounded-lg flex items-center justify-center text-center px-2">
-              <span className="text-gray-400 text-[10px] leading-tight">
-                Логотип федерального проекта
-              </span>
-            </div>
+          {/* Logo */}
+          <div className="flex items-center justify-center mb-8 pt-8 border-t border-gray-800">
+            <img
+              src="/FASIE.SVG"
+              alt="Фонд содействия инновациям"
+              className="h-[60px] w-auto brightness-0 invert opacity-60"
+            />
           </div>
 
           <p className="text-center text-xs text-gray-500">
