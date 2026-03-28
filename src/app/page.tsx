@@ -532,10 +532,10 @@ export default function Home() {
             <div>
               <div className="text-white font-semibold mb-3">Контакты</div>
               <a
-                href="mailto:commoncourse@mail.ru"
+                href="mailto:comncourse@yandex.com"
                 className="text-sm hover:text-orange-400 transition-colors"
               >
-                commoncourse@mail.ru
+                comncourse@yandex.com
               </a>
             </div>
           </div>
